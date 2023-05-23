@@ -50,7 +50,6 @@ body{
     font-size: large;
     color:black;
     padding-left: 3%;
-    /* background-color:green; */
 }
 .mision{
     display: flex;
@@ -72,7 +71,7 @@ body{
     color: green;
 }
 
-.teams{
+.team{
     display: flex;
 
 }
@@ -102,12 +101,12 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-wrap: wrap; */
     gap: 2rem;
+
    }
    .service-container .service-box{
        flex: 1 1 30rem;
-       background: rgb(180, 180, 221);
+       background-color:white;
        padding: 2rem 1rem 2rem;
        border-radius: 2rem;
        text-align: center;
@@ -145,10 +144,16 @@ footer{
     color: white;
 }
 
-.pic3{
+.members{
     width: 40%;
     height: 30%;
-    border-radius: 50%;
+    /* border-radius: 50%; */
+}
+
+.pic3{
+    width: 20%;
+    height: 30%;
+    /* border-radius: 50%; */
     gap: 3%;
 }
 
@@ -160,7 +165,6 @@ footer{
     margin-left: 15%;
 }
 
-/* Media Queries */
 
 @media (max-width: 768px) {
     .logo {
@@ -275,9 +279,9 @@ footer{
 
 .members{
     
-    width:75%;
+    width:70%;
     height:60%;
-    border-radius:50%;
+    /* border-radius:75%; */
     justify-content: space-between;
 }
 
@@ -339,8 +343,12 @@ footer{
 .members {
     width: 75%;
     height: 60%;
-    border-radius: 50%;
+    /* border-radius:45%; */
     justify-content: space-between;
+}
+.ash{
+    text-decoration: solid;
+    color: black;
 }
 
 /* Media Queries */
